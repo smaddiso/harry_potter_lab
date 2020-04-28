@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import './HouseSelector.css';
 
 const HouseSelector = ({ houses, onHouseSelected }) => {
   const optionNodes = houses.map(house => {

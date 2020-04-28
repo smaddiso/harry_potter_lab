@@ -5,11 +5,15 @@
 }
 
 body {
-  background-color: lightyellow;
+  background-color: black;
+  background: url('./harry_potter.jpg');
+  background-size: 100%;
 }
 
 h2 {
   font-size: 5em;
+  color: white;
+  text-align: center;
 }
 
 .container {

@@ -1,10 +1,10 @@
-.character-selector {
+.house-selector {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 20px;
 }
 
-.character-selector {
+.house-selector {
   font-size: 2em;
 }

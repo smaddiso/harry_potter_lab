@@ -1,6 +1,14 @@
 .flex-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-top: 50px;
+  background-color: white;
+  opacity: 55%;
 }
+ h3 {
+   color: black;
+   font-size: 2em;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }

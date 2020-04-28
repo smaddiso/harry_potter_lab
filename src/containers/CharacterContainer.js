@@ -52,12 +52,13 @@ class CharacterContainer extends React.Component {
     if (this.state.selectedCharacterHouse.length) {
       filteredCharacters = this.state.characters.filter(character => {
         return character.house === this.state.selectedCharacterHouse;
-      });// TODO filter the characters
+      });
     }
 
     return (
       <div>
-        <h2>Harry Potter Characters</h2>
+        <h2>Harry Potter API</h2>
+        
         <HouseSelector
          houses={this.getUniqueHouses()}
          onHouseSelected={this.handleHouseSelected}/>
